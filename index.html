@@ -8,6 +8,10 @@
       #banner {
         width: 100%;
         height: 15%;
+        text-align: center;
+      }
+      #searchBox {
+        display: inline-block;
       }
       #viewer {
         width: 100%;
@@ -25,14 +29,47 @@
     <div id="banner">
       <h1>The Project Title</h1>
       <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuAbout">
           <a class="dropdown-item" href="#">Project History</a>
           <a class="dropdown-item" href="#">How to Use</a>
           <a class="dropdown-item" href="#">Credits</a>
         </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuBackground" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Background Materials
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuBackground">
+          <a class="dropdown-item" href="#">Background</a>
+          <a class="dropdown-item" href="#">Materials</a>
+          <a class="dropdown-item" href="#">Etc</a>
+        </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuEssays" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mini-Essays
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuEssays">
+          <a class="dropdown-item" href="#">Mini</a>
+          <a class="dropdown-item" href="#">Essay</a>
+          <a class="dropdown-item" href="#">Etc</a>
+        </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuTimeline" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Space &amp; Time
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuTimeline">
+          <a class="dropdown-item" href="#">Space</a>
+          <a class="dropdown-item" href="#">Time</a>
+          <a class="dropdown-item" href="#">Etc</a>
+        </div>
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuCriticism" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Biography &amp; Criticism
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuCriticism">
+          <a class="dropdown-item" href="#">Biography</a>
+          <a class="dropdown-item" href="#">Criticism</a>
+          <a class="dropdown-item" href="#">Etc</a>
+        </div>
+        <div id="searchBox"><input type="text" /></div>
       </div>
     </div>
     <div id="viewer"></div>
